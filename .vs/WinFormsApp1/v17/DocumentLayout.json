@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|c:\\aaaaaaaaad\\fourth semester\\quizsystem.net\\winformsapp1\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|solutionrelative:winformsapp1\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|c:\\aaaaaaaaad\\fourth semester\\quizsystem.net\\winformsapp1\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|solutionrelative:winformsapp1\\form6.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|c:\\aaaaaaaaad\\fourth semester\\quizsystem.net\\winformsapp1\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|solutionrelative:winformsapp1\\form4.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|c:\\aaaaaaaaad\\fourth semester\\quizsystem.net\\winformsapp1\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{6C33A1CA-3A58-47BF-87A8-51B3F2844379}|WinFormsApp1\\WinFormsApp1.vbproj|solutionrelative:winformsapp1\\form5.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form6.vb",
+              "DocumentMoniker": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form6.vb",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form6.vb",
+              "ToolTip": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form6.vb",
+              "RelativeToolTip": "WinFormsApp1\\Form6.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-21T14:26:19.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form5.vb",
+              "DocumentMoniker": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form5.vb",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form5.vb",
+              "ToolTip": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form5.vb",
+              "RelativeToolTip": "WinFormsApp1\\Form5.vb",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowAcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-21T14:24:53.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form4.vb [Design]",
+              "DocumentMoniker": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form4.vb",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form4.vb",
+              "ToolTip": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form4.vb [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form4.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-21T14:27:09.233Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form5.vb [Design]",
+              "DocumentMoniker": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form5.vb",
+              "RelativeDocumentMoniker": "WinFormsApp1\\Form5.vb",
+              "ToolTip": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\Form5.vb [Design]",
+              "RelativeToolTip": "WinFormsApp1\\Form5.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-02-21T14:15:42.419Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

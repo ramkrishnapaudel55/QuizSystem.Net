@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BmTiaqoa+BK6Vrn9BUj+WlFTutkyvvSMg3J1Alejb2YlgQFJq52ZgAtqv5s5BswkuGtgFZFcuV0hkjrZlMGLqQ==",
+  "dgSpecHash": "5FAgjs+BYAnLvvm/Orv2IwdbSOPL/BmU62yEC6uvuRuTCPQl6RyEjYgmOFwc4fayaNx2BRFW01w5TI7oN1bnlQ==",
   "success": true,
-  "projectFilePath": "C:\\aaaaaaaaaD\\fourth semester\\VB\\VB\\VB.netProject\\WinFormsApp1\\WinFormsApp1.vbproj",
+  "projectFilePath": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\WinFormsApp1.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\ramkr\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\ramkr\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

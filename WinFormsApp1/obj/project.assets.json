@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\aaaaaaaaaD\\fourth semester\\VB\\VB\\VB.netProject\\WinFormsApp1\\WinFormsApp1.vbproj",
+      "projectUniqueName": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\WinFormsApp1.vbproj",
       "projectName": "WinFormsApp1",
-      "projectPath": "C:\\aaaaaaaaaD\\fourth semester\\VB\\VB\\VB.netProject\\WinFormsApp1\\WinFormsApp1.vbproj",
+      "projectPath": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\WinFormsApp1.vbproj",
       "packagesPath": "C:\\Users\\ramkr\\.nuget\\packages\\",
-      "outputPath": "C:\\aaaaaaaaaD\\fourth semester\\VB\\VB\\VB.netProject\\WinFormsApp1\\obj\\",
+      "outputPath": "C:\\aaaaaaaaaD\\fourth semester\\QuizSystem.Net\\WinFormsApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ramkr\\AppData\\Roaming\\NuGet\\NuGet.Config",

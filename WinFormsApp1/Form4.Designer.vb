@@ -43,6 +43,7 @@ Partial Class Form4
         ' PictureBox1
         ' 
         PictureBox1.BackgroundImage = CType(resources.GetObject("PictureBox1.BackgroundImage"), Image)
+        PictureBox1.BackgroundImageLayout = ImageLayout.Stretch
         PictureBox1.Location = New Point(-1, 1)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(808, 456)

@@ -39,12 +39,15 @@ Public Class Form4
             End Using
             MessageBox.Show("Signup successful. You can now sign in.")
 
-            ' Redirect to Form3
+            ' Redirect to Form2
             Me.Hide()   ' Hide the current form (Form4)
-            Form3.Show() ' Show Form3
+            Form2.Show() ' Show Form3
         Catch ex As Exception
             MessageBox.Show("An error occurred: " & ex.Message)
         End Try
     End Sub
 
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class

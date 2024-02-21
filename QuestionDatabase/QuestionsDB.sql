@@ -1,4 +1,5 @@
-﻿-- Create MathQuestions database and table
+﻿-- Data Source=LAPTOP-OIMBR982\SQLEXPRESS;Initial Catalog=ScienceQuestionsDB;Integrated Security=True
+-- Create MathQuestions database and table
 CREATE DATABASE MathQuestionsDB;
 GO
 USE MathQuestionsDB;
