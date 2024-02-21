@@ -1,0 +1,89 @@
+LAPTOP-OIMBR982\SQLEXPRESS
+
+
+
+
+
+Imports System.Data.SqlClient
+
+Public Class Form5
+    Dim connectionString As String = "Data Source=LAPTOP-OIMBR982\SQLEXPRESS;Initial Catalog=ScienceQuestionsDB;Integrated Security=True"
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles CalculateScoreButton.Click
+
+    End Sub
+
+    Private Sub Form5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Try
+            Using connection As New SqlConnection(connectionString)
+                connection.Open()
+                Dim query As String = "SELECT * FROM ScienceQuestions"
+                Using command As New SqlCommand(query, connection)
+                    Using reader As SqlDataReader = command.ExecuteReader()
+                        Dim questionIndex As Integer = 1
+                        While reader.Read()
+                            ' Display each question and options
+                            Dim questionTextBox As RichTextBox = DirectCast(Me.Controls("RichTextBox" & questionIndex), RichTextBox)
+                            Dim radioButton1 As RadioButton = DirectCast(Me.Controls("RadioButton" & questionIndex & "1"), RadioButton)
+                            Dim radioButton2 As RadioButton = DirectCast(Me.Controls("RadioButton" & questionIndex & "2"), RadioButton)
+                            Dim radioButton3 As RadioButton = DirectCast(Me.Controls("RadioButton" & questionIndex & "3"), RadioButton)
+                            Dim radioButton4 As RadioButton = DirectCast(Me.Controls("RadioButton" & questionIndex & "4"), RadioButton)
+
+                            If questionTextBox IsNot Nothing AndAlso radioButton1 IsNot Nothing AndAlso radioButton2 IsNot Nothing AndAlso radioButton3 IsNot Nothing AndAlso radioButton4 IsNot Nothing Then
+                                questionTextBox.Text = reader("QuestionText").ToString()
+                                radioButton1.Text = reader("Option1").ToString()
+                                radioButton2.Text = reader("Option2").ToString()
+                                radioButton3.Text = reader("Option3").ToString()
+                                radioButton4.Text = reader("Option4").ToString()
+                            End If
+
+                            questionIndex += 1
+                        End While
+                    End Using
+                End Using
+            End Using
+        Catch ex As Exception
+            MessageBox.Show("An error occurred while fetching questions: " & ex.Message)
+        End Try
+    End Sub
+
+    Private Sub CalculateScoreButton_Click(sender As Object, e As EventArgs) Handles CalculateScoreButton.Click
+        ' Calculate the score based on selected options
+        Dim totalQuestions As Integer = 10 ' Assuming there are 10 questions
+        Dim correctAnswers As Integer = 0
+
+        For i As Integer = 1 To totalQuestions
+            Dim selectedOption As Integer = GetSelectedOption(i)
+            Dim correctOption As Integer = GetCorrectOption(i)
+
+            If selectedOption = correctOption Then
+                correctAnswers += 1
+            End If
+        Next
+
+        Dim score As Double = (correctAnswers / totalQuestions) * 100
+        MessageBox.Show("Your score: " & score.ToString("0.00") & "%")
+    End Sub
+
+    Private Function GetSelectedOption(questionIndex As Integer) As Integer
+        Dim selectedRadioButton As RadioButton = Me.Controls("RadioButton" & questionIndex & GetSelectedRadioButtonIndex(questionIndex))
+        Return If(selectedRadioButton IsNot Nothing, Convert.ToInt32(selectedRadioButton.Tag), -1)
+    End Function
+
+    Private Function GetCorrectOption(questionIndex As Integer) As Integer
+        ' Retrieve the correct option from the database based on questionIndex
+        ' You need to implement the logic to retrieve the correct option for the given question
+        ' For now, assume correct options are stored in a separate array
+        Dim correctOptions() As Integer = {1, 2, 3, 1, 1, 2, 2, 3, 1, 2}
+        Return correctOptions(questionIndex - 1)
+    End Function
+
+    Private Function GetSelectedRadioButtonIndex(questionIndex As Integer) As Integer
+        For i As Integer = 1 To 4
+            Dim radioButton As RadioButton = Me.Controls("RadioButton" & questionIndex & i)
+            If radioButton IsNot Nothing AndAlso radioButton.Checked Then
+                Return i
+            End If
+        Next
+        Return -1
+    End Function
+End Class
