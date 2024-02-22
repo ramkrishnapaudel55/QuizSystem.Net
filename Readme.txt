@@ -32,7 +32,7 @@
   Contributors:
 1. RamKrishna Paudel,
 2. Dilip B.K,
-3. Aman Yadav
+3. Aman Yadav.
 
- License:
- This project is licensed under the MIT License.
+  Thank You!!
+  Full Stop
