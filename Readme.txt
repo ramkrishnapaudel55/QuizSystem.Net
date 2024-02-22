@@ -1,5 +1,6 @@
-Quiz System
-The Quiz System is a Windows Forms application designed to facilitate offline quizzes in various subjects. It provides a user-friendly interface for conducting quizzes, allowing users to answer questions and receive immediate feedback on their performance.
+  Quiz System
+  The Quiz System is a Windows Forms application designed to facilitate offline quizzes in various subjects. It provides a
+  user-friendly interface for conducting quizzes, allowing users to answer questions and receive immediate feedback on their performance.
 
    Features:
 1. Multiple Subjects: The application supports quizzes in multiple subjects, including Science, Sports, Math, and History.
@@ -28,5 +29,6 @@ The Quiz System is a Windows Forms application designed to facilitate offline qu
 1. RamKrishna Paudel,
 2. Dilip B.K,
 3. Aman Yadav
+
  License:
  This project is licensed under the MIT License.
