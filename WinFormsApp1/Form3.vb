@@ -26,7 +26,7 @@
             ' Redirect to Form7 for Sports subject
             Me.Hide() ' Hide the current form (Form3)
             Form8.Show() ' Show Form8
-            'MessageBox.Show("Hya mugi layang nahanta Form 8 ajai baneko chhaina.")
+            'MessageBox.Show("Hya layang nahanta Form 8 ajai baneko chhaina.")
         Else
             MessageBox.Show("Please choose a subject.") ' Display a message if no subject is chosen
         End If

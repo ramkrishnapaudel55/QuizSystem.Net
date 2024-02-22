@@ -102,3 +102,4 @@ C:\aaaaaaaaaD\fourth semester\QuizSystem.Net\WinFormsApp1\obj\Debug\net6.0-windo
 C:\aaaaaaaaaD\fourth semester\QuizSystem.Net\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form6.resources
 C:\aaaaaaaaaD\fourth semester\QuizSystem.Net\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form7.resources
 C:\aaaaaaaaaD\fourth semester\QuizSystem.Net\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form8.resources
+C:\aaaaaaaaaD\fourth semester\QuizSystem.Net\WinFormsApp1\obj\Debug\net6.0-windows\WinFormsApp1.Form9.resources

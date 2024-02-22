@@ -29,6 +29,7 @@ Partial Class Form7
         question10Option4 = New RadioButton()
         question10RichTextBox = New RichTextBox()
         GroupBox6 = New GroupBox()
+        Button2 = New Button()
         question6RichTextBox = New RichTextBox()
         question6Option1 = New RadioButton()
         question6Option2 = New RadioButton()
@@ -86,7 +87,6 @@ Partial Class Form7
         scoreTextBox = New TextBox()
         calculateScoreButton = New Button()
         Button1 = New Button()
-        Button2 = New Button()
         GroupBox10.SuspendLayout()
         GroupBox6.SuspendLayout()
         GroupBox9.SuspendLayout()
@@ -106,7 +106,7 @@ Partial Class Form7
         GroupBox10.Controls.Add(question10Option3)
         GroupBox10.Controls.Add(question10Option4)
         GroupBox10.Controls.Add(question10RichTextBox)
-        GroupBox10.Location = New Point(383, 425)
+        GroupBox10.Location = New Point(383, 422)
         GroupBox10.Name = "GroupBox10"
         GroupBox10.Size = New Size(363, 100)
         GroupBox10.TabIndex = 165
@@ -177,6 +177,18 @@ Partial Class Form7
         GroupBox6.Size = New Size(357, 106)
         GroupBox6.TabIndex = 159
         GroupBox6.TabStop = False
+        ' 
+        ' Button2
+        ' 
+        Button2.BackColor = Color.Yellow
+        Button2.FlatStyle = FlatStyle.Popup
+        Button2.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Button2.Location = New Point(403, 416)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(108, 44)
+        Button2.TabIndex = 166
+        Button2.Text = "Back"
+        Button2.UseVisualStyleBackColor = False
         ' 
         ' question6RichTextBox
         ' 
@@ -434,13 +446,13 @@ Partial Class Form7
         GroupBox5.Controls.Add(question5Option4)
         GroupBox5.Location = New Point(12, 415)
         GroupBox5.Name = "GroupBox5"
-        GroupBox5.Size = New Size(359, 110)
+        GroupBox5.Size = New Size(359, 108)
         GroupBox5.TabIndex = 163
         GroupBox5.TabStop = False
         ' 
         ' question5RichTextBox
         ' 
-        question5RichTextBox.Location = New Point(2, 19)
+        question5RichTextBox.Location = New Point(2, 13)
         question5RichTextBox.Name = "question5RichTextBox"
         question5RichTextBox.Size = New Size(355, 35)
         question5RichTextBox.TabIndex = 66
@@ -449,7 +461,7 @@ Partial Class Form7
         ' question5Option1
         ' 
         question5Option1.AutoSize = True
-        question5Option1.Location = New Point(2, 60)
+        question5Option1.Location = New Point(2, 54)
         question5Option1.Name = "question5Option1"
         question5Option1.Size = New Size(103, 19)
         question5Option1.TabIndex = 62
@@ -460,7 +472,7 @@ Partial Class Form7
         ' question5Option2
         ' 
         question5Option2.AutoSize = True
-        question5Option2.Location = New Point(151, 60)
+        question5Option2.Location = New Point(151, 54)
         question5Option2.Name = "question5Option2"
         question5Option2.Size = New Size(103, 19)
         question5Option2.TabIndex = 63
@@ -471,7 +483,7 @@ Partial Class Form7
         ' question5Option3
         ' 
         question5Option3.AutoSize = True
-        question5Option3.Location = New Point(2, 85)
+        question5Option3.Location = New Point(2, 79)
         question5Option3.Name = "question5Option3"
         question5Option3.Size = New Size(103, 19)
         question5Option3.TabIndex = 64
@@ -482,7 +494,7 @@ Partial Class Form7
         ' question5Option4
         ' 
         question5Option4.AutoSize = True
-        question5Option4.Location = New Point(151, 85)
+        question5Option4.Location = New Point(151, 79)
         question5Option4.Name = "question5Option4"
         question5Option4.Size = New Size(103, 19)
         question5Option4.TabIndex = 65
@@ -497,15 +509,15 @@ Partial Class Form7
         GroupBox4.Controls.Add(question4Option2)
         GroupBox4.Controls.Add(question4Option3)
         GroupBox4.Controls.Add(question4Option4)
-        GroupBox4.Location = New Point(16, 307)
+        GroupBox4.Location = New Point(16, 314)
         GroupBox4.Name = "GroupBox4"
-        GroupBox4.Size = New Size(355, 108)
+        GroupBox4.Size = New Size(355, 102)
         GroupBox4.TabIndex = 164
         GroupBox4.TabStop = False
         ' 
         ' question4RichTextBox
         ' 
-        question4RichTextBox.Location = New Point(1, 14)
+        question4RichTextBox.Location = New Point(1, 11)
         question4RichTextBox.Name = "question4RichTextBox"
         question4RichTextBox.Size = New Size(355, 35)
         question4RichTextBox.TabIndex = 61
@@ -514,7 +526,7 @@ Partial Class Form7
         ' question4Option1
         ' 
         question4Option1.AutoSize = True
-        question4Option1.Location = New Point(1, 55)
+        question4Option1.Location = New Point(1, 52)
         question4Option1.Name = "question4Option1"
         question4Option1.Size = New Size(103, 19)
         question4Option1.TabIndex = 57
@@ -525,7 +537,7 @@ Partial Class Form7
         ' question4Option2
         ' 
         question4Option2.AutoSize = True
-        question4Option2.Location = New Point(150, 55)
+        question4Option2.Location = New Point(150, 52)
         question4Option2.Name = "question4Option2"
         question4Option2.Size = New Size(103, 19)
         question4Option2.TabIndex = 58
@@ -536,7 +548,7 @@ Partial Class Form7
         ' question4Option3
         ' 
         question4Option3.AutoSize = True
-        question4Option3.Location = New Point(1, 80)
+        question4Option3.Location = New Point(1, 77)
         question4Option3.Name = "question4Option3"
         question4Option3.Size = New Size(103, 19)
         question4Option3.TabIndex = 59
@@ -547,7 +559,7 @@ Partial Class Form7
         ' question4Option4
         ' 
         question4Option4.AutoSize = True
-        question4Option4.Location = New Point(150, 80)
+        question4Option4.Location = New Point(150, 77)
         question4Option4.Name = "question4Option4"
         question4Option4.Size = New Size(97, 19)
         question4Option4.TabIndex = 60
@@ -562,7 +574,7 @@ Partial Class Form7
         GroupBox3.Controls.Add(question3Option2)
         GroupBox3.Controls.Add(question3Option3)
         GroupBox3.Controls.Add(question3Option4)
-        GroupBox3.Location = New Point(17, 206)
+        GroupBox3.Location = New Point(17, 214)
         GroupBox3.Name = "GroupBox3"
         GroupBox3.Size = New Size(353, 100)
         GroupBox3.TabIndex = 158
@@ -627,7 +639,7 @@ Partial Class Form7
         GroupBox2.Controls.Add(question2Option2)
         GroupBox2.Controls.Add(question2Option3)
         GroupBox2.Controls.Add(question2Option4)
-        GroupBox2.Location = New Point(16, 104)
+        GroupBox2.Location = New Point(16, 108)
         GroupBox2.Name = "GroupBox2"
         GroupBox2.Size = New Size(355, 100)
         GroupBox2.TabIndex = 157
@@ -692,7 +704,7 @@ Partial Class Form7
         GroupBox1.Controls.Add(question1Option2)
         GroupBox1.Controls.Add(question1Option3)
         GroupBox1.Controls.Add(question1Option4)
-        GroupBox1.Location = New Point(15, -1)
+        GroupBox1.Location = New Point(15, 1)
         GroupBox1.Name = "GroupBox1"
         GroupBox1.Size = New Size(356, 102)
         GroupBox1.TabIndex = 156
@@ -700,7 +712,7 @@ Partial Class Form7
         ' 
         ' question1RichTextBox
         ' 
-        question1RichTextBox.Location = New Point(1, 17)
+        question1RichTextBox.Location = New Point(1, 11)
         question1RichTextBox.Name = "question1RichTextBox"
         question1RichTextBox.Size = New Size(355, 35)
         question1RichTextBox.TabIndex = 6
@@ -709,7 +721,7 @@ Partial Class Form7
         ' question1Option1
         ' 
         question1Option1.AutoSize = True
-        question1Option1.Location = New Point(7, 55)
+        question1Option1.Location = New Point(7, 49)
         question1Option1.Name = "question1Option1"
         question1Option1.Size = New Size(97, 19)
         question1Option1.TabIndex = 1
@@ -720,7 +732,7 @@ Partial Class Form7
         ' question1Option2
         ' 
         question1Option2.AutoSize = True
-        question1Option2.Location = New Point(156, 55)
+        question1Option2.Location = New Point(156, 49)
         question1Option2.Name = "question1Option2"
         question1Option2.Size = New Size(97, 19)
         question1Option2.TabIndex = 3
@@ -731,7 +743,7 @@ Partial Class Form7
         ' question1Option3
         ' 
         question1Option3.AutoSize = True
-        question1Option3.Location = New Point(7, 80)
+        question1Option3.Location = New Point(7, 74)
         question1Option3.Name = "question1Option3"
         question1Option3.Size = New Size(97, 19)
         question1Option3.TabIndex = 4
@@ -742,7 +754,7 @@ Partial Class Form7
         ' question1Option4
         ' 
         question1Option4.AutoSize = True
-        question1Option4.Location = New Point(156, 80)
+        question1Option4.Location = New Point(156, 74)
         question1Option4.Name = "question1Option4"
         question1Option4.Size = New Size(97, 19)
         question1Option4.TabIndex = 5
@@ -768,20 +780,18 @@ Partial Class Form7
         ' 
         ' calculateScoreButton
         ' 
-        calculateScoreButton.BackColor = Color.Cyan
-        calculateScoreButton.FlatStyle = FlatStyle.Popup
+        calculateScoreButton.BackColor = Color.Yellow
         calculateScoreButton.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        calculateScoreButton.Location = New Point(755, 460)
+        calculateScoreButton.Location = New Point(755, 450)
         calculateScoreButton.Name = "calculateScoreButton"
         calculateScoreButton.Size = New Size(108, 44)
-        calculateScoreButton.TabIndex = 153
+        calculateScoreButton.TabIndex = 167
         calculateScoreButton.Text = "Submit"
         calculateScoreButton.UseVisualStyleBackColor = False
         ' 
         ' Button1
         ' 
         Button1.BackColor = Color.Yellow
-        Button1.FlatStyle = FlatStyle.Popup
         Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
         Button1.Location = New Point(755, 400)
         Button1.Name = "Button1"
@@ -790,24 +800,13 @@ Partial Class Form7
         Button1.Text = "Back"
         Button1.UseVisualStyleBackColor = False
         ' 
-        ' Button2
-        ' 
-        Button2.BackColor = Color.Yellow
-        Button2.FlatStyle = FlatStyle.Popup
-        Button2.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.Location = New Point(403, 416)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(108, 44)
-        Button2.TabIndex = 166
-        Button2.Text = "Back"
-        Button2.UseVisualStyleBackColor = False
-        ' 
         ' Form7
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.DarkGoldenrod
         ClientSize = New Size(875, 525)
+        Controls.Add(calculateScoreButton)
         Controls.Add(Button1)
         Controls.Add(GroupBox10)
         Controls.Add(GroupBox6)
@@ -821,7 +820,6 @@ Partial Class Form7
         Controls.Add(GroupBox1)
         Controls.Add(Label1)
         Controls.Add(scoreTextBox)
-        Controls.Add(calculateScoreButton)
         Name = "Form7"
         Text = "Form7"
         GroupBox10.ResumeLayout(False)
@@ -910,7 +908,7 @@ Partial Class Form7
     Friend WithEvents question1Option4 As RadioButton
     Friend WithEvents Label1 As Label
     Friend WithEvents scoreTextBox As TextBox
+    Friend WithEvents Button2 As Button
     Friend WithEvents calculateScoreButton As Button
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
 End Class
