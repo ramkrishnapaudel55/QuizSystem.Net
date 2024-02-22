@@ -807,7 +807,7 @@ Partial Class Form5
         Controls.Add(Label1)
         Controls.Add(scoreTextBox)
         Name = "Form5"
-        Text = "Form5"
+        Text = "Science Questions"
         GroupBox1.ResumeLayout(False)
         GroupBox1.PerformLayout()
         GroupBox2.ResumeLayout(False)

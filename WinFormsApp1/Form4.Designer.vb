@@ -179,7 +179,7 @@ Partial Class Form4
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
         Name = "Form4"
-        Text = "Form4"
+        Text = "Sign Up Portal"
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()

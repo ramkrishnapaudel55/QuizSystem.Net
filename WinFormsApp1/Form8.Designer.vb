@@ -807,7 +807,7 @@ Partial Class Form8
         Controls.Add(Label1)
         Controls.Add(scoreTextBox)
         Name = "Form8"
-        Text = "Form8"
+        Text = "Sports Questions"
         GroupBox10.ResumeLayout(False)
         GroupBox10.PerformLayout()
         GroupBox6.ResumeLayout(False)

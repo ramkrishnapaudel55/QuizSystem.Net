@@ -139,7 +139,7 @@ Partial Class Form3
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
         Name = "Form3"
-        Text = "Form3"
+        Text = "Subject List"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()

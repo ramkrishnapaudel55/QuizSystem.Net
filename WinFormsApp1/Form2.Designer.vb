@@ -129,7 +129,7 @@ Partial Class Form2
         ClientSize = New Size(800, 450)
         Controls.Add(Panel1)
         Name = "Form2"
-        Text = "Form2"
+        Text = "Log In Portal"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)

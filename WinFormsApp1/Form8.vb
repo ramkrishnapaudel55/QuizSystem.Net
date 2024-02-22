@@ -88,9 +88,9 @@ Public Class Form8
     End Function
 
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs)
-        Hide
-        Form3.Show
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Hide()
+        Form3.Show()
     End Sub
 
 End Class
