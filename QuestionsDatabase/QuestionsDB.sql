@@ -16,16 +16,17 @@ CREATE TABLE MathQuestions (
 -- Insert sample Math questions
 INSERT INTO MathQuestions (QuestionID, QuestionText, Option1, Option2, Option3, Option4, CorrectOption)
 VALUES
-(1, 'What is the value of 2 + 2?', '3', '4', '5', '6', 2),
-(2, 'What is the result of 8 * 3?', '21', '24', '32', '56', 2),
-(3, 'What is the square root of 25?', '4', '5', '6', '7', 2),
-(4, 'What is the sum of angles in a triangle?', '90 degrees', '180 degrees', '270 degrees', '360 degrees', 2),
-(5, 'What is the value of 7 squared?', '49', '36', '64', '81', 1),
-(6, 'What is the next number in the sequence: 2, 4, 6, 8, ...?', '10', '12', '14', '16', 4),
-(7, 'What is the area of a rectangle with length 8 units and wid th 5 units?', '30 square units', '35 square units', '40 square units', '45 square units', 1),
-(8, 'What is the value of 4 factorial (4!)?', '16', '24', '32', '64', 2),
-(9, 'What is the largest prime number less than 20?', '15', '17', '19', '21', 3),
-(10, 'What is the value of π (pi) rounded to two decimal places?', '3.14', '3.16', '3.12', '3.18', 1);
+(1, 'What is the value of π (pi) rounded to two decimal places?', '3.14', '3.16', '3.12', '3.18', 1),
+(2, 'What is the square root of 144?', '12', '14', '10', '16', 1),
+(3, 'What is the sum of the angles in a triangle?', '90 degrees', '180 degrees', '270 degrees', '360 degrees', 2),
+(4, 'What is the mathematical constant e (Euler''s number) approximately equal to?', '2.72', '3.14', '1.62', '1.41', 1),
+(5, 'What is the value of the expression: 5 * (8 + 2) / 2?', '30', '25', '40', '35', 2),
+(6, 'What is the perimeter of a rectangle with length 10 units and width 5 units?', '20 units', '25 units', '30 units', '35 units', 3),
+(7, 'What is the next number in the sequence: 1, 1, 2, 3, 5, 8, ...?', '10', '11', '12', '13', 3),
+(8, 'What is the largest prime number less than 20?', '15', '17', '19', '21', 3),
+(9, 'What is the value of 3 factorial (3!)?', '3', '6', '9', '12', 2),
+(10, 'What is the area of a circle with radius 6 units?', '12π square units', '18π square units', '24π square units', '36π square units', 4);
+
 
 select * from MathQuestions
 
