@@ -36,6 +36,7 @@ Partial Class Form4
         Label2 = New Label()
         fullNameBox = New TextBox()
         Label1 = New Label()
+        Button1 = New Button()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         Panel1.SuspendLayout()
         SuspendLayout()
@@ -171,11 +172,23 @@ Partial Class Form4
         Label1.TabIndex = 3
         Label1.Text = "Full Name"
         ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.Yellow
+        Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Button1.Location = New Point(670, 382)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(108, 44)
+        Button1.TabIndex = 154
+        Button1.Text = "Back"
+        Button1.UseVisualStyleBackColor = False
+        ' 
         ' Form4
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
+        Controls.Add(Button1)
         Controls.Add(Panel1)
         Controls.Add(PictureBox1)
         Name = "Form4"
@@ -199,4 +212,5 @@ Partial Class Form4
     Friend WithEvents confirmPasswordBox As TextBox
     Friend WithEvents Label5 As Label
     Friend WithEvents btnSignUp As Button
+    Friend WithEvents Button1 As Button
 End Class

@@ -39,5 +39,13 @@ Public Class Form2
             MessageBox.Show("An error occurred: " & ex.Message)
         End Try
     End Sub
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Hide()
+        Form1.Show()
+    End Sub
 
+    Private Sub forgetPassword_LinkClicked(sender As Object, e As LinkLabelLinkClickedEventArgs) Handles forgetPassword.LinkClicked
+        Me.Hide()
+        Form9.Show()
+    End Sub
 End Class

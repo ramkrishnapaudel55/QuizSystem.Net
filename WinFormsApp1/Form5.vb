@@ -96,4 +96,5 @@ Public Class Form5
     Private Sub GroupBox8_Enter(sender As Object, e As EventArgs) Handles GroupBox8.Enter
 
     End Sub
+
 End Class

@@ -27,10 +27,11 @@ Partial Class Form2
         logInButton = New Button()
         logInPassword = New TextBox()
         logInUserName = New TextBox()
-        LinkLabel1 = New LinkLabel()
+        forgetPassword = New LinkLabel()
         Label2 = New Label()
         Label1 = New Label()
         sign_up = New Label()
+        Button1 = New Button()
         Panel1.SuspendLayout()
         SuspendLayout()
         ' 
@@ -41,7 +42,7 @@ Partial Class Form2
         Panel1.Controls.Add(logInButton)
         Panel1.Controls.Add(logInPassword)
         Panel1.Controls.Add(logInUserName)
-        Panel1.Controls.Add(LinkLabel1)
+        Panel1.Controls.Add(forgetPassword)
         Panel1.Controls.Add(Label2)
         Panel1.Controls.Add(Label1)
         Panel1.Controls.Add(sign_up)
@@ -81,15 +82,15 @@ Partial Class Form2
         logInUserName.Size = New Size(229, 25)
         logInUserName.TabIndex = 5
         ' 
-        ' LinkLabel1
+        ' forgetPassword
         ' 
-        LinkLabel1.AutoSize = True
-        LinkLabel1.Location = New Point(212, 194)
-        LinkLabel1.Name = "LinkLabel1"
-        LinkLabel1.Size = New Size(100, 15)
-        LinkLabel1.TabIndex = 4
-        LinkLabel1.TabStop = True
-        LinkLabel1.Text = "Forgot password?"
+        forgetPassword.AutoSize = True
+        forgetPassword.Location = New Point(212, 194)
+        forgetPassword.Name = "forgetPassword"
+        forgetPassword.Size = New Size(100, 15)
+        forgetPassword.TabIndex = 4
+        forgetPassword.TabStop = True
+        forgetPassword.Text = "Forgot password?"
         ' 
         ' Label2
         ' 
@@ -119,6 +120,17 @@ Partial Class Form2
         sign_up.TabIndex = 0
         sign_up.Text = "Login"
         ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.Yellow
+        Button1.Font = New Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point)
+        Button1.Location = New Point(680, 394)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(108, 44)
+        Button1.TabIndex = 154
+        Button1.Text = "Back"
+        Button1.UseVisualStyleBackColor = False
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
@@ -127,6 +139,7 @@ Partial Class Form2
         BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), Image)
         BackgroundImageLayout = ImageLayout.Stretch
         ClientSize = New Size(800, 450)
+        Controls.Add(Button1)
         Controls.Add(Panel1)
         Name = "Form2"
         Text = "Log In Portal"
@@ -141,6 +154,7 @@ Partial Class Form2
     Friend WithEvents Label1 As Label
     Friend WithEvents logInPassword As TextBox
     Friend WithEvents logInUserName As TextBox
-    Friend WithEvents LinkLabel1 As LinkLabel
+    Friend WithEvents forgetPassword As LinkLabel
     Friend WithEvents logInButton As Button
+    Friend WithEvents Button1 As Button
 End Class
