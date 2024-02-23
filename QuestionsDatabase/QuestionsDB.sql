@@ -13,6 +13,8 @@ CREATE TABLE MathQuestions (
     CorrectOption INT
 );
 
+select * from users
+
 -- Insert sample Math questions
 INSERT INTO MathQuestions (QuestionID, QuestionText, Option1, Option2, Option3, Option4, CorrectOption)
 VALUES
@@ -114,8 +116,8 @@ VALUES
 (5, 'How many players are there on a baseball team?', '5', '7', '9', '11', 3),
 (6, 'Which sport is played on ice with a stone and brooms?', 'Curling', 'Ice Hockey', 'Figure Skating', 'Speed Skating', 1),
 (7, 'Which country won the most Olympic gold medals in the 2016 Summer Olympics?', 'USA', 'China', 'Russia', 'Great Britain', 1),
-(8, 'Who holds the record for the most Grand Slam titles in men''s tennis?', 'Roger Federer', 'Rafael Nadal', 'Novak Djokovic', 'Pete Sampras', 1),
+(8, 'Who holds the record for the most Grand Slam titles in men''s tennis?', 'Roger Federer', 'Rafael Nadal', 'Novak Djokovic', 'Pete Sampras', 3),
 (9, 'Which sport is known as the "king of sports"?', 'Soccer', 'Tennis', 'Basketball', 'Golf', 1),
 (10, 'What is the diameter of a basketball hoop in inches?', '16', '18', '20', '22', 2);
-
+truncate table SportsQuestions
 select * from SportsQuestions
