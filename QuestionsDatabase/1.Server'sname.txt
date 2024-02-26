@@ -1,9 +1,3 @@
-LAPTOP-OIMBR982\SQLEXPRESS
-
-
-
-
-
 Imports System.Data.SqlClient
 
 Public Class Form5

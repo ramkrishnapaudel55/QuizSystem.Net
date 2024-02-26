@@ -24,13 +24,14 @@ VALUES
 (4, 'What is the mathematical constant e (Euler''s number) approximately equal to?', '2.72', '3.14', '1.62', '1.41', 1),
 (5, 'What is the value of the expression: 5 * (8 + 2) / 2?', '30', '25', '40', '35', 2),
 (6, 'What is the perimeter of a rectangle with length 10 units and width 5 units?', '20 units', '25 units', '30 units', '35 units', 3),
-(7, 'What is the next number in the sequence: 1, 1, 2, 3, 5, 8, ...?', '10', '11', '12', '13', 3),
+(7, 'What is the next number in the sequence: 1, 1, 2, 3, 5, 8, ...?', '10', '11', '12', '13', 4),
 (8, 'What is the largest prime number less than 20?', '15', '17', '19', '21', 3),
 (9, 'What is the value of 3 factorial (3!)?', '3', '6', '9', '12', 2),
 (10, 'What is the area of a circle with radius 6 units?', '12π square units', '18π square units', '24π square units', '36π square units', 4);
 
 
 select * from MathQuestions
+truncate table MathQuestions
 
 -- Create ScienceQuestions database and table
 CREATE DATABASE ScienceQuestionsDB;

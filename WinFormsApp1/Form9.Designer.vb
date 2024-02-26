@@ -40,11 +40,19 @@ Partial Class Form9
         ' 
         Panel1.BackColor = Color.WhiteSmoke
         Panel1.BorderStyle = BorderStyle.FixedSingle
+        Panel1.Controls.Add(confirmPasswordBox)
         Panel1.Controls.Add(confirmButton)
+        Panel1.Controls.Add(Label5)
         Panel1.Controls.Add(sign_up)
-        Panel1.Location = New Point(241, 44)
+        Panel1.Controls.Add(Label4)
+        Panel1.Controls.Add(Label3)
+        Panel1.Controls.Add(passwordBox)
+        Panel1.Controls.Add(Label2)
+        Panel1.Controls.Add(userNameBox)
+        Panel1.Controls.Add(emailBox)
+        Panel1.Location = New Point(281, 34)
         Panel1.Name = "Panel1"
-        Panel1.Size = New Size(319, 386)
+        Panel1.Size = New Size(319, 387)
         Panel1.TabIndex = 1
         ' 
         ' confirmButton
@@ -73,7 +81,7 @@ Partial Class Form9
         ' confirmPasswordBox
         ' 
         confirmPasswordBox.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        confirmPasswordBox.Location = New Point(285, 300)
+        confirmPasswordBox.Location = New Point(34, 228)
         confirmPasswordBox.Name = "confirmPasswordBox"
         confirmPasswordBox.PlaceholderText = "Re-enter your password"
         confirmPasswordBox.Size = New Size(229, 25)
@@ -82,7 +90,7 @@ Partial Class Form9
         ' Label5
         ' 
         Label5.AutoSize = True
-        Label5.Location = New Point(285, 281)
+        Label5.Location = New Point(34, 209)
         Label5.Name = "Label5"
         Label5.Size = New Size(104, 15)
         Label5.TabIndex = 20
@@ -91,7 +99,7 @@ Partial Class Form9
         ' Label4
         ' 
         Label4.AutoSize = True
-        Label4.Location = New Point(286, 178)
+        Label4.Location = New Point(35, 106)
         Label4.Name = "Label4"
         Label4.Size = New Size(60, 15)
         Label4.TabIndex = 19
@@ -100,7 +108,7 @@ Partial Class Form9
         ' passwordBox
         ' 
         passwordBox.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        passwordBox.Location = New Point(285, 248)
+        passwordBox.Location = New Point(34, 176)
         passwordBox.Name = "passwordBox"
         passwordBox.PlaceholderText = "Create Password"
         passwordBox.Size = New Size(229, 25)
@@ -109,7 +117,7 @@ Partial Class Form9
         ' userNameBox
         ' 
         userNameBox.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        userNameBox.Location = New Point(286, 196)
+        userNameBox.Location = New Point(35, 124)
         userNameBox.Name = "userNameBox"
         userNameBox.PlaceholderText = "enter username"
         userNameBox.Size = New Size(229, 25)
@@ -118,7 +126,7 @@ Partial Class Form9
         ' Label3
         ' 
         Label3.AutoSize = True
-        Label3.Location = New Point(285, 126)
+        Label3.Location = New Point(34, 54)
         Label3.Name = "Label3"
         Label3.Size = New Size(36, 15)
         Label3.TabIndex = 16
@@ -127,7 +135,7 @@ Partial Class Form9
         ' emailBox
         ' 
         emailBox.Font = New Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point)
-        emailBox.Location = New Point(285, 144)
+        emailBox.Location = New Point(34, 72)
         emailBox.Name = "emailBox"
         emailBox.PlaceholderText = "Enter your email"
         emailBox.Size = New Size(229, 25)
@@ -136,7 +144,7 @@ Partial Class Form9
         ' Label2
         ' 
         Label2.AutoSize = True
-        Label2.Location = New Point(285, 230)
+        Label2.Location = New Point(34, 158)
         Label2.Name = "Label2"
         Label2.Size = New Size(57, 15)
         Label2.TabIndex = 14
@@ -148,21 +156,12 @@ Partial Class Form9
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Gray
         ClientSize = New Size(800, 450)
-        Controls.Add(confirmPasswordBox)
-        Controls.Add(Label5)
-        Controls.Add(Label4)
-        Controls.Add(passwordBox)
-        Controls.Add(userNameBox)
-        Controls.Add(Label3)
-        Controls.Add(emailBox)
-        Controls.Add(Label2)
         Controls.Add(Panel1)
         Name = "Form9"
         Text = "Form9"
         Panel1.ResumeLayout(False)
         Panel1.PerformLayout()
         ResumeLayout(False)
-        PerformLayout()
     End Sub
 
     Friend WithEvents Panel1 As Panel
