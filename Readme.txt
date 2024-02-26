@@ -7,7 +7,7 @@ The Quiz System is a Windows Forms application designed to facilitate offline qu
 3. User Interaction: Users can select answers for each question using radio buttons and submit their responses for scoring.
 4. Scoring: The application calculates scores based on user responses and displays the results in real-time.
 5. Database Integration: Questions and options are stored in separate databases for each subject, allowing easy management and updating of quiz content.
-6. Error Handling: The application includes error handling mechanisms to gracefully handle database connection errors and other exceptions.
+6. Error Handling: The application includes error handling mechanisms to gracefully handle database connection errors and other exceptions. 
 
   Technologies Used:
 - Language: Visual Basic .NET
